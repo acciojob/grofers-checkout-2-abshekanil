@@ -1,5 +1,5 @@
 //your code here
-document.addEventListener('DOMContentLoaded', function(){
+// document.addEventListener('DOMContentLoaded', function(){
 	let table = document.getElementById('myTable');
 	let lastRow = document.createElement('tr');
 	let allPrice = document.querySelectorAll('[data-ns-test=price]');
@@ -19,10 +19,15 @@ document.addEventListener('DOMContentLoaded', function(){
 		
 
 
-	let newRows = table.insertRow(-1);
-	let cell1 = newRows.insertCell(0);
+	// let newRows = table.insertRow(-1);
+	// let cell1 = newRows.insertCell(0);
 
-	cell1.dataset.nsTest = "grandTotal";
+	// cell1.dataset.nsTest = "grandTotal";
 
-	cell1.innerHTML = 'Total price = $'+ sum.toFixed(2);
-});
+	// cell1.innerHTML = 'Total price = $'+ sum.toFixed(2);
+
+
+
+
+	
+// });
