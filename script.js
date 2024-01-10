@@ -1,7 +1,7 @@
 //your code here
 document.addEventListener('DOMContentLoaded', function(){
 	let table = document.getElementById('myTable');
-	let allPrice = document.querySelectorAll('td[data-ns-test="prices"]');
+	let allPrice = document.querySelectorAll('td[data-ns-test="price"]');
 	let sum = 0;
 	allPrice.forEach(function(element){
 		sum+=parseFloat(element.textContent.replace('$',''));
