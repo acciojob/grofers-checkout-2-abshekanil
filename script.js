@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function(){
 	allPrice.forEach(function(element){
 		let price = parseFloat(element.textContent.replace('$',''));
 
-		if(!isNaN(price))
+		if(!Number.isNaN(price))
 		{
 			sum+=price;
 		}
